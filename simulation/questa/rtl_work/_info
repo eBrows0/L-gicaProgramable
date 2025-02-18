@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/simulation/questa
+T_opt
+!s110 1739890981
+Vh8NO4V2C4zlg^X;;Z>EF33
+04 6 4 work bcd_tb fast 0
+=1-e880881ff831-67b4a125-ef-1320
+R0
+!s12b OEM100
+!s124 OEM10U6 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vbcd
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/bcd.v
+Z3 !s110 1739890980
+!i10b 1
+!s100 [h9F<f[0DE;Z1Zi?afZNP0
+IKP=MdRlCnV99AE8bR_5nP1
+R1
+w1739889922
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/bcd.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/bcd.v
+!i122 1
+L0 1 29
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1739890980.000000
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/bcd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD|C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/bcd.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vbcd_tb
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/bcd_tb.v
+R3
+!i10b 1
+!s100 kg@Gnc<kb7GE?z6E2cXQ20
+IWZ40XeBe1:nA7i1;moAEW1
+R1
+w1739890794
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/bcd_tb.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/bcd_tb.v
+!i122 2
+L0 1 37
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/bcd_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD|C:/Users/ronma/OneDrive/Escritorio/logprogramable/BCD/bcd_tb.v|
+!i113 0
+R7
+R8
+R2
+vdecoder
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v
+R3
+!i10b 1
+!s100 37N[zl:H:Cf3^P@L<aLRR3
+IM92IMZ:CgUCPBc3oUhM6Y2
+R1
+w1739888708
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v
+!i122 0
+L0 1 41
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1|C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
