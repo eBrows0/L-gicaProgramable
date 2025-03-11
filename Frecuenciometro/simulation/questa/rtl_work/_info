@@ -1,0 +1,123 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/simulation/questa
+T_opt
+!s110 1741365639
+V0Hj7zG71K4f3]Y@fPzBlV1
+04 18 4 work Frecuenciometro_tb fast 0
+=1-e880881ff831-67cb2186-255-5ed8
+R0
+!s12b OEM100
+!s124 OEM10U9 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vdecoder
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v
+!s110 1741365631
+!i10b 1
+!s100 Zc;WGWkOeJgAo<;9Ye^Me1
+IKiK3JZmlKjYa:S>OkXeEA1
+R1
+w1739892850
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v
+!i122 0
+L0 1 41
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1741365631.000000
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1|C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v|
+!i113 0
+Z5 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vFrecuenciometro
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/Frecuenciometro.v
+Z6 !s110 1741365636
+!i10b 1
+!s100 VcKcO[HMDSO[]Na7X007d0
+Iemna9cBIQ:znk?O]A@JEL3
+R1
+w1741365287
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/Frecuenciometro.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/Frecuenciometro.v
+!i122 2
+L0 1 67
+R3
+R4
+r1
+!s85 0
+31
+Z7 !s108 1741365635.000000
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/Frecuenciometro.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA|C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/Frecuenciometro.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@frecuenciometro
+vFrecuenciometro_tb
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/output_files/Frecuenciometro_tb.v
+R6
+!i10b 1
+!s100 78YXc<z^0=j]daUH<Jbm[3
+ICGVa3^l<>g4TlFHTn8kI71
+R1
+w1741365449
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/output_files/Frecuenciometro_tb.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/output_files/Frecuenciometro_tb.v
+!i122 3
+L0 2 54
+R3
+R4
+r1
+!s85 0
+31
+!s108 1741365636.000000
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/output_files/Frecuenciometro_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/output_files|C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/output_files/Frecuenciometro_tb.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/FrecuenciometroFPGA/output_files -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@frecuenciometro_tb
+vmax_bcd_wrapper
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/max_bcd_wrapper.v
+!s110 1741365635
+!i10b 1
+!s100 8XQ6licXX>mfPYLgl>SX?2
+I02mU1jUOl?h]C4X2IPi8T0
+R1
+w1741365029
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/max_bcd_wrapper.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/max_bcd_wrapper.v
+!i122 1
+L0 1 40
+R3
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/max_bcd_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable|C:/Users/ronma/OneDrive/Escritorio/logprogramable/max_bcd_wrapper.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
