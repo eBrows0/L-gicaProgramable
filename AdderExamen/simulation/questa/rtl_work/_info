@@ -1,0 +1,123 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/simulation/questa
+T_opt
+!s110 1741797424
+VV_^WEn?XTnUIB]g26]=z=0
+04 13 4 work adderFinal_tb fast 0
+=1-e880881ff831-67d1b830-ac-55c8
+R0
+!s12b OEM100
+!s124 OEM10U6 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vadderFinal
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/adderFinal.v
+Z3 !s110 1741797423
+!i10b 1
+!s100 igJZ3Dgk[8QNH^O4z`LL30
+IB78K=DN0<T[i0:DDFh9_33
+R1
+w1741796907
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/adderFinal.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/adderFinal.v
+!i122 2
+L0 1 75
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1741797422.000000
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/adderFinal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER|C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/adderFinal.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+nadder@final
+vadderFinal_tb
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/adderFinal_tb.v
+R3
+!i10b 1
+!s100 9jbIGF50IdOB9FcL[UCIT3
+IPVnWh8Y]8=X=Ja9UI0cBc0
+R1
+w1741797129
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/adderFinal_tb.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/adderFinal_tb.v
+!i122 3
+L0 3 52
+R4
+R5
+r1
+!s85 0
+31
+!s108 1741797423.000000
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/adderFinal_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER|C:/Users/ronma/OneDrive/Escritorio/logprogramable/FinalADDER/adderFinal_tb.v|
+!i113 0
+R7
+R8
+R2
+nadder@final_tb
+vclkdiv
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/clock divider/clkdiv.v
+Z9 !s110 1741797422
+!i10b 1
+!s100 gDB>gH1h]<eIefF6AZe@[3
+IA?H:@fVM=HzX^z2HNFiQk0
+R1
+w1741791939
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/clock divider/clkdiv.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/clock divider/clkdiv.v
+!i122 0
+L0 1 45
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/clock divider/clkdiv.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/clock divider|C:/Users/ronma/OneDrive/Escritorio/logprogramable/clock divider/clkdiv.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work {+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/clock divider} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vdecoder
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v
+R9
+!i10b 1
+!s100 Zc;WGWkOeJgAo<;9Ye^Me1
+IKiK3JZmlKjYa:S>OkXeEA1
+R1
+w1739892850
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v
+!i122 1
+L0 1 41
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1|C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1/decoder.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/Adder_1 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2

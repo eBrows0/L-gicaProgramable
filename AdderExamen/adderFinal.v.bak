@@ -1,0 +1,77 @@
+module adderFinal#(parameter FREQ = 1)(
+	input clk, rst_a_p, detection,
+	output reg FSM_out,
+	output [0:6] deco_out
+	);
+	
+	parameter A=0, B=1, C=2, D=3;
+	reg [3:0] current_state, next_state;
+	wire [3:0] count;
+	wire s0,s1;
+	
+	clkdiv #(.FREQ(FREQ)) divider(
+		.clk(clk),
+		.rst(rst_a_p),
+		.clk_div(s0)
+	);
+	
+	decoder deco(
+		.deco_in(current_state),
+		.deco_out(deco_out)
+	);
+	
+	
+	
+	always @(posedge s0 or posedge rst_a_p)
+	begin
+		if(rst_a_p)
+				current_state <= A;
+		else
+			current_state <= next_state;
+	end
+	
+	always @(current_state or detection)
+	begin
+		case(current_state)
+		A:
+		begin
+			FSM_out = 0;
+			if(detection == 0)
+				next_state = A;
+			else
+				next_state = B;
+		end
+		B:
+		begin
+			FSM_out = 0;
+			if(detection == 0)
+				next_state = A;
+			else
+				next_state = C;
+		end
+		C:
+		begin
+			FSM_out = 0;
+			if(detection == 0)
+				next_state = A;
+			else
+				next_state = D;
+		end
+		D:
+		begin
+			if(detection == 0)
+				begin
+				FSM_out = 0;
+				next_state = A;
+				end
+			else
+				begin
+				FSM_out = 1;
+				next_state = D;
+				end
+		end
+	endcase
+	end
+	
+	
+endmodule

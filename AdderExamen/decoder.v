@@ -1,0 +1,41 @@
+module decoder (input[3:0] deco_in, output reg[0:6] deco_out);
+	always@(*)
+	begin
+		case(deco_in)
+		0:
+			deco_out=7'b0000001;
+		1:
+			deco_out=7'b1001111;
+		2:
+			deco_out=7'b0010010;
+		3:
+			deco_out=7'b0000110;
+		4:
+			deco_out=7'b1001100;
+		5:
+			deco_out=7'b0100100;
+		6:
+			deco_out=7'b0100000;
+		7:
+			deco_out=7'b0001111;
+		8:
+			deco_out=7'b0000000;
+		9:
+			deco_out=7'b0000100;
+		10:
+			deco_out=7'b0001000;
+		11:
+			deco_out=7'b1100000;
+		12:
+			deco_out=7'b0110001;
+		13:
+			deco_out=7'b1000010;
+		14:
+			deco_out=7'b0110000;
+		15:
+			deco_out=7'b0111000;
+			
+
+		endcase
+	end
+endmodule
