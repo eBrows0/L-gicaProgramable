@@ -1,0 +1,56 @@
+module chrono (
+	input MAX10_CLK1_50,
+	input SW0,
+	output [0:6] HEX0, HEX1, HEX2, HEX3, HEX4
+)
+
+	reg fseg = 1;
+	reg fmil = 1000;
+	
+	reg [5:0] seg;
+	reg [9:0] mseg;
+	reg clkseg, clkmseg;
+	
+	wire [3:0] unidades_seg = seg %10;
+	wire [3:0] decenas_seg = (seg/10)%10;
+
+	wire [3:0] unidades_mseg = mseg %10;
+	wire [3:0] decenas_mseg = (mseg/10)%10;
+	wire [3:0] centenas_mseg = (mseg /100)%10;
+	
+clkdiv #(.freq(fseg)) segunds(
+		.clk(MAX10_CLK1_50),
+		.rst(SW0),
+		.clk_div(clkseg)
+	);
+	
+clkdiv #(.freq(fmil)) milers(
+		.clk(MAX10_CLK1_50),
+		.rst(SW0),
+		.clk_div(clkmseg)
+	);
+	
+always(posedge MAX10_CLK1_50)
+	begin
+		if(seg >= 60)
+		seg <= 0;
+		else
+		seg <= seg;
+		
+		if(mseg >= 1000)
+		mseg <= 0;
+		else 
+		mseg <= mseg;
+	end
+	
+always(posedge clkseg)
+begin
+	seg <= seg+1;
+end
+
+always(posedge clkmseg)
+begin
+	mseg <= mseg+1;
+end
+
+endmodule
