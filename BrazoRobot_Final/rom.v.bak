@@ -1,0 +1,42 @@
+module rom (
+    input clk,
+    input rst,
+    output reg [15:0] rom_x, rom_y, rom_z  
+);
+    reg [15:0] rom [0:30]; 
+    reg [5:0] index_x, index_y, index_z; 
+	 
+
+  
+    initial begin
+        $readmemh("cordenadas.hex", rom);
+    end
+
+    
+    always @(posedge clk or negedge rst) begin
+        if (!rst) begin
+            index_x <= 0;
+				index_y <= 1;
+				index_z <= 2;
+        end 
+        else begin
+            if (index_z <= 30) begin  
+               index_x <= index_x + 3;
+					index_y <= index_y + 3;
+					index_z <= index_z + 3;
+					end
+					else begin
+					index_x <= 0;
+				   index_y <= 1;
+				   index_z <= 2;
+				   end
+          
+			 rom_x = rom[index_x];
+			 rom_y = rom[index_y];
+			 rom_z = rom[index_z];
+			 
+				    	 
+            end
+        end
+    
+endmodule
