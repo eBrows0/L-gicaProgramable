@@ -1,0 +1,29 @@
+module counter(clk,rst,enable,count);
+
+	input clk, rst, enable;
+	output reg [3:0] count;
+
+
+
+
+	function integer ceillog2;
+		input integer data;
+		integer i, result;
+		begin
+			for(i=0; 2**i < data; i=i+1)
+				result = i+1;
+			ceillog2 = result;
+		end
+	endfunction
+
+
+
+
+	always @(posedge clk or posedge rst)
+	begin
+		if(rst == 1)
+			count <= 4'b0000;
+		elseif(enable == 1)
+			count <= count+1;
+	end
+endmodule

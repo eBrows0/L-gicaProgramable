@@ -1,0 +1,73 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/ronma/OneDrive/Escritorio/logprogramable/counter/simulation/questa
+T_opt
+!s110 1740060120
+VA^acH0g3;TWge_J[32oA@2
+04 10 4 work oneshot_tb fast 0
+=1-e880881ff831-67b735d8-1e4-1d04
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+voneshot
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/One SHt/oneshot.v
+Z3 !s110 1740060119
+!i10b 1
+!s100 0Qm>>ABIm0]YWk_0Ski701
+I?PK6BKRBT5n<mDW7dMdOI1
+R1
+w1740058986
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/One SHt/oneshot.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/One SHt/oneshot.v
+!i122 0
+L0 1 18
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1740060119.000000
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/One SHt/oneshot.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/One SHt|C:/Users/ronma/OneDrive/Escritorio/logprogramable/One SHt/oneshot.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work {+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/One SHt} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+voneshot_tb
+2C:/Users/ronma/OneDrive/Escritorio/logprogramable/counter/../One SHt/oneshot_tb.v
+R3
+!i10b 1
+!s100 T;zP?Lamc?SaY0c1l8=oY3
+IzAGHQ`aAVecIacM@kO=NV3
+R1
+w1740060101
+8C:/Users/ronma/OneDrive/Escritorio/logprogramable/counter/../One SHt/oneshot_tb.v
+FC:/Users/ronma/OneDrive/Escritorio/logprogramable/counter/../One SHt/oneshot_tb.v
+!i122 1
+L0 1 25
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/ronma/OneDrive/Escritorio/logprogramable/counter/../One SHt/oneshot_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/counter/../One SHt|C:/Users/ronma/OneDrive/Escritorio/logprogramable/counter/../One SHt/oneshot_tb.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work {+incdir+C:/Users/ronma/OneDrive/Escritorio/logprogramable/counter/../One SHt} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
